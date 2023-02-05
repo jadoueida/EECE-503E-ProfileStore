@@ -51,11 +51,9 @@ public class ProfileController : ControllerBase
         {
             return NotFound($"$A User with this {existingProfile.Username} was not found");
         }
-        
-            existingProfile.FirstName = profile.FirstName;
-            existingProfile.LastName = profile.LastName;
-            
-            await _profileStore.UpsertProfile(existingProfile);
+
+        await _profileStore.SetProfile(existingProfile, profile.FirstName, profile.LastName);
+        await _profileStore.UpsertProfile(existingProfile);
         return Ok(profile);
     }
 }

@@ -19,4 +19,11 @@ public class InMemoryProfileStore : IProfileStore
         if (!_profiles.ContainsKey(username)) return Task.FromResult<Profile?>(null);
         return Task.FromResult<Profile?>(_profiles[username]);
     }
+
+    public Task SetProfile(Profile profile,string firstname, string lastname)
+    {
+        profile.FirstName = firstname;
+        profile.LastName = lastname;
+        return Task.CompletedTask;
+    }
 }

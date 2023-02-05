@@ -1,0 +1,90 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\packages\Microsoft.NET.Test.Sdk.17.4.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.props" Condition="Exists('..\packages\Microsoft.NET.Test.Sdk.17.4.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.props')" />
+
+    <Import Project="..\packages\Microsoft.TestPlatform.TestHost.17.4.1\build\netcoreapp3.1\Microsoft.TestPlatform.TestHost.props" Condition="Exists('..\packages\Microsoft.TestPlatform.TestHost.17.4.1\build\netcoreapp3.1\Microsoft.TestPlatform.TestHost.props')" />
+
+    <Import Project="..\packages\Microsoft.CodeCoverage.17.4.1\build\netstandard2.0\Microsoft.CodeCoverage.props" Condition="Exists('..\packages\Microsoft.CodeCoverage.17.4.1\build\netstandard2.0\Microsoft.CodeCoverage.props')" />
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="6.0.13" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+        <PackageReference Include="Moq" Version="4.18.4" />
+        <PackageReference Include="xunit" Version="2.4.1" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="coverlet.collector" Version="3.1.2">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ProfileService.Web\ProfileService.Web.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.TestPlatform.CommunicationUtilities, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+        <HintPath>..\packages\Microsoft.TestPlatform.TestHost.17.4.1\lib\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.TestPlatform.CoreUtilities, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+        <HintPath>..\packages\Microsoft.TestPlatform.TestHost.17.4.1\lib\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.TestPlatform.CrossPlatEngine, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+        <HintPath>..\packages\Microsoft.TestPlatform.TestHost.17.4.1\lib\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.TestPlatform.PlatformAbstractions, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+        <HintPath>..\packages\Microsoft.TestPlatform.TestHost.17.4.1\lib\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.TestPlatform.Utilities, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+        <HintPath>..\packages\Microsoft.TestPlatform.TestHost.17.4.1\lib\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.VisualStudio.CodeCoverage.Shim, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+        <HintPath>..\packages\Microsoft.CodeCoverage.17.4.1\lib\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.VisualStudio.TestPlatform.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+        <HintPath>..\packages\Microsoft.TestPlatform.TestHost.17.4.1\lib\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+        <HintPath>..\packages\Microsoft.TestPlatform.TestHost.17.4.1\lib\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</HintPath>
+      </Reference>
+      <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+        <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+      </Reference>
+      <Reference Include="NuGet.Frameworks, Version=5.11.3.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+        <HintPath>..\packages\NuGet.Frameworks.5.11.3\lib\netstandard2.0\NuGet.Frameworks.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+        <HintPath>..\packages\System.Reflection.Metadata.1.6.0\lib\netstandard2.0\System.Reflection.Metadata.dll</HintPath>
+      </Reference>
+      <Reference Include="testhost, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+        <HintPath>..\packages\Microsoft.TestPlatform.TestHost.17.4.1\lib\netcoreapp3.1\testhost.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+      <PropertyGroup>
+        <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
+      </PropertyGroup>
+      <Error Condition="!Exists('..\packages\Microsoft.CodeCoverage.17.4.1\build\netstandard2.0\Microsoft.CodeCoverage.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeCoverage.17.4.1\build\netstandard2.0\Microsoft.CodeCoverage.props'))" />
+      <Error Condition="!Exists('..\packages\Microsoft.CodeCoverage.17.4.1\build\netstandard2.0\Microsoft.CodeCoverage.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeCoverage.17.4.1\build\netstandard2.0\Microsoft.CodeCoverage.targets'))" />
+      <Error Condition="!Exists('..\packages\Microsoft.TestPlatform.TestHost.17.4.1\build\netcoreapp3.1\Microsoft.TestPlatform.TestHost.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TestPlatform.TestHost.17.4.1\build\netcoreapp3.1\Microsoft.TestPlatform.TestHost.props'))" />
+      <Error Condition="!Exists('..\packages\Microsoft.NET.Test.Sdk.17.4.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NET.Test.Sdk.17.4.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.props'))" />
+      <Error Condition="!Exists('..\packages\Microsoft.NET.Test.Sdk.17.4.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NET.Test.Sdk.17.4.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.targets'))" />
+    </Target>
+
+    <Import Project="..\packages\Microsoft.CodeCoverage.17.4.1\build\netstandard2.0\Microsoft.CodeCoverage.targets" Condition="Exists('..\packages\Microsoft.CodeCoverage.17.4.1\build\netstandard2.0\Microsoft.CodeCoverage.targets')" />
+
+    <Import Project="..\packages\Microsoft.NET.Test.Sdk.17.4.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.targets" Condition="Exists('..\packages\Microsoft.NET.Test.Sdk.17.4.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.targets')" />
+
+</Project>

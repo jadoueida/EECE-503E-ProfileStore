@@ -1,0 +1,64 @@
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/appsettings.Development.json
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/appsettings.json
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/ProfileService.Web
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/ProfileService.Web.deps.json
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/ProfileService.Web.runtimeconfig.json
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/ProfileService.Web.dll
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/ProfileService.Web.pdb
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.csproj.AssemblyReference.cache
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.AssemblyInfoInputs.cache
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.AssemblyInfo.cs
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.csproj.CoreCompileInputs.cache
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.MvcApplicationPartsAssemblyInfo.cs
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.MvcApplicationPartsAssemblyInfo.cache
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets/msbuild.ProfileService.Web.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets/msbuild.build.ProfileService.Web.props
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.ProfileService.Web.props
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.ProfileService.Web.props
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets.build.json
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets.development.json
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/scopedcss/bundle/ProfileService.Web.styles.css
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.csproj.CopyComplete
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.dll
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/refint/ProfileService.Web.dll
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.pdb
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.genruntimeconfig.cache
+/Users/jadoueida/Downloads/ProfileService/ProfileService.Web/obj/Debug/net6.0/ref/ProfileService.Web.dll
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/appsettings.Development.json
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/appsettings.json
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/ProfileService.Web
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/ProfileService.Web.deps.json
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/ProfileService.Web.runtimeconfig.json
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/ProfileService.Web.dll
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/ProfileService.Web.pdb
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.csproj.AssemblyReference.cache
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.AssemblyInfoInputs.cache
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.AssemblyInfo.cs
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.csproj.CoreCompileInputs.cache
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.MvcApplicationPartsAssemblyInfo.cs
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.MvcApplicationPartsAssemblyInfo.cache
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets/msbuild.ProfileService.Web.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets/msbuild.build.ProfileService.Web.props
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.ProfileService.Web.props
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.ProfileService.Web.props
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets.build.json
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/staticwebassets.development.json
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/scopedcss/bundle/ProfileService.Web.styles.css
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.csproj.CopyComplete
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.dll
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/refint/ProfileService.Web.dll
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.pdb
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ProfileService.Web.genruntimeconfig.cache
+/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/ref/ProfileService.Web.dll

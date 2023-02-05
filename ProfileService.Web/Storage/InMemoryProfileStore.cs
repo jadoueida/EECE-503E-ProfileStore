@@ -12,6 +12,7 @@ public class InMemoryProfileStore : IProfileStore
         _profiles[profile.Username] = profile;
         return Task.CompletedTask;
     }
+    
 
     public Task<Profile?> GetProfile(string username)
     {

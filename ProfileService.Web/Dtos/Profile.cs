@@ -9,10 +9,10 @@ public record Profile
         LastName = lastName;
     }
     
-        public string Username { get; init; }
-        public string FirstName { get; init; }
-        public string LastName { get; init; }
-    }
+        public string Username;
+        public string FirstName;
+        public string LastName;
+}
     
 public record PutProfileRequest
 {
@@ -21,7 +21,7 @@ public record PutProfileRequest
         FirstName = firstName;
         LastName = lastName;
     }
-    
-    public string FirstName { get; init; }
-    public string LastName { get; init; }
+
+    public string FirstName;
+    public string LastName;
 }

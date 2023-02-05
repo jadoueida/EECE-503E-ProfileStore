@@ -49,8 +49,9 @@ public class ProfileController : ControllerBase
         var existingProfile = await _profileStore.GetProfile("{username}");
         if (existingProfile == null)
         {
-            return NotFound("A User with this username was not found");
+            return NotFound($"$A User with this {existingProfile.Username} was not found");
         }
+
         await _profileStore.UpsertProfile(existingProfile);
         return Ok(profile);
     }

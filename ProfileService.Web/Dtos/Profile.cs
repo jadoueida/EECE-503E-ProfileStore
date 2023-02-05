@@ -8,8 +8,20 @@ public record Profile
         FirstName = firstName;
         LastName = lastName;
     }
-
-    public string Username { get; init; }
+    
+        public string Username { get; init; }
+        public string FirstName { get; init; }
+        public string LastName { get; init; }
+    }
+    
+public record PutProfileRequest
+{
+    public PutProfileRequest(string firstName, string lastName)
+    {
+        FirstName = firstName;
+        LastName = lastName;
+    }
+    
     public string FirstName { get; init; }
     public string LastName { get; init; }
 }

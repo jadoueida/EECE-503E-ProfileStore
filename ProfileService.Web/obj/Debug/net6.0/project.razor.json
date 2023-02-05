@@ -1,0 +1,20 @@
+{
+  "SerializedFilePath": "/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/obj/Debug/net6.0/project.razor.json",
+  "FilePath": "/Users/jadoueida/Desktop/EECE 503E/ProfileService/ProfileService.Web/ProfileService.Web.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "ProfileService.Web",
+  "Documents": [],
+  "SerializationFormat": "0.3"
+}
